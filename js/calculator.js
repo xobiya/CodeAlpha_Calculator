@@ -109,6 +109,7 @@ function scientific(func) {
         break;
       case "square": 
         result = Math.pow(val, 2);
+        
         expression = `(${val})²`;
         break;
       case "pow":
